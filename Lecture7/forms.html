@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learn It</title>
+</head>
+
+<body>
+    <h1>form to apply for editior.</h1>
+    <form action="/submit.php" method="post">
+
+        <div>
+            <label for="username">Name </label>
+            <input type="text" id="username" placeholder="enter your name ">
+        </div>
+        
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes" autofocus>
+            <label for="subscribe">subscribe</label>
+        </div>
+
+        <div>
+            <label for="comment">enter your comment</label>
+            <br>
+            <textarea name="comment" rows="4" cols="50" ></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="" >
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
